@@ -5,3 +5,9 @@
   background-color: black;
   opacity: 0.9;
   }
+
+nav li {
+  display: inline-flex;
+  align-items: end; 
+  text-decoration: underline;
+}
