@@ -5,18 +5,26 @@
   <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 
+
 <body>
-  <nav>
-    <ul>
-      <li>Mission</li>
-      <li>Featured Teas</li>
-      <li>Locations</li>
-    </ul>
-  </nav>
-  <img src="./tea_cozy_pictures/img-mission-background.jpg" alt="mission background">
-  <div class="header-container">
-  <h2>Our Mission</h2>
-  <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+  <header>
+    <nav>
+      <ul>
+        <li>Mission</li>
+        <li>Featured Teas</li>
+        <li>Locations</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+  <div class="banner-container">
+    <div class="banner">
+      <div class="banner-text">
+        <h2>Our Mission</h2>
+        <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+      </div>
+    </div>
   </div>
 
   <div class = "monthly-tea-container">
@@ -24,17 +32,37 @@
     <p>What's Steeping at The Tea Cozy?</p>
   </div>
 
-  <div>
-    <p>Fall Berry Blitz Tea</p>
-    <p>Spiced Rum Tea</p>
-    <p>Seasonal Donuts</p>
-    <p>Myrtle Ave Tea</p>
-    <p>Bedford Bizarre Tea</p>
+  <div class="options-container">
+    <div class="blitz option">
+      <img class="option-pics" src="./tea_cozy_pictures/img-berryblitz.jpg" alt="Berry Blitz Tea">
+      <p class="option-label">Fall Berry Blitz Tea</p>
+    </div>
+
+    <div class="rum  option">
+      <img class="option-pics" src="./tea_cozy_pictures/img-spiced-rum.jpg" alt="Spiced Rum">
+      <p class="option-label">Spiced Rum Tea</p>
+    </div>
+      
+    <div class="donut  option">
+      <img class="option-pics" src="./tea_cozy_pictures/img-donut.jpg" alt="Donuts">
+      <p class="option-label">Seasonal Donuts</p>
+    </div>
+
+    <div class="myrtle  option">
+      <img class="option-pics" src="./tea_cozy_pictures/img-myrtle-ave.jpg" alt="Myrtle Ave Tea">
+      <p class="option-label">Myrtle Ave Tea</p>
+    </div>
+
+    <div class="bedford  option">
+      <img class="option-pics" src="./tea_cozy_pictures/img-bedford-bizarre.jpg" alt="Bedford Bizarre Tea">
+      <p class="option-label">Bedford Bizarre Tea</p>
+    </div>
+
   </div>
 
   <div class="location-container">
-    <h2>Locations</h2>
-    <img src="./tea_cozy_pictures/img-mission-background.jpg" alt="mission background">
+    <h2 id="location-title">Locations</h2>
+    <div class="locations">
     <div class="downtown location">
       <p class="location-label">Downtown</p>
       <p class="location-street">384 West 4th St</p>
@@ -55,7 +83,11 @@
       <p class="location-suite">Second Floor</p>
       <p class="location-city">Portland, Maine</p>
     </div>
+    </div>
   </div>
-  
+  <div class="closure">
+    
+  </div>
+  </main>
 </body>
 </html>
